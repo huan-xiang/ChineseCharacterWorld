@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - New tag
+  - SceneObject
+  - Trap
+  - Weapon
+  - Monster
+  - MonsterWeapon
+  - Map
+  - SpellPos
+  - Wall
+  - MovableGround
+  - Boss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Background
+  - Water
+  - UI
+  - Character
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Map
+    uniqueID: 2259610141
+    locked: 0
+  - name: Player
+    uniqueID: 661846597
+    locked: 0
+  - name: UI
+    uniqueID: 2862210047
+    locked: 0

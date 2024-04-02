@@ -1,0 +1,532 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.48f1c1 (06fbdfbf16e3) revision 457695'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 31991 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\Editor\2020.3.48f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity/ChineseCharacterWorld
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58299
+Successfully changed project path to: E:/Unity/ChineseCharacterWorld
+E:/Unity/ChineseCharacterWorld
+Using Asset Import Pipeline V2.
+Player connection [348] Host "[IP] 192.168.1.5 [Port] 2953007136 [Flags] 2 [Guid] 3724469078 [EditorId] 3724469078 [Version] 1048832 [Id] WindowsEditor(7,��) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [348] Host "[IP] 192.168.1.5 [Port] 2953007136 [Flags] 2 [Guid] 3724469078 [EditorId] 3724469078 [Version] 1048832 [Id] WindowsEditor(7,��) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 67.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.48f1c1 (06fbdfbf16e3)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Editor/2020.3.48f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/ChineseCharacterWorld/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:   
+    VRAM:     7957 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/Editor/2020.3.48f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Editor/2020.3.48f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity/Editor/2020.3.48f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/Editor/2020.3.48f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000736 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 65.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.440 seconds
+Domain Reload Profiling:
+	ReloadAssembly (440ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (352ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (97ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (158ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (58ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002343 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 70.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Domain Reload Profiling:
+	ReloadAssembly (949ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (814ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3288 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.4 MB.
+System memory in use after: 147.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3730.
+Total: 3.254600 ms (FindLiveObjects: 0.273300 ms CreateObjectMapping: 0.102900 ms MarkObjects: 2.797500 ms  DeleteObjects: 0.080000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/SCI-FI UI Pack_Components V1/Resources_Components V1/Textures/Icons3/Icon_Edit2.png
+  artifactKey: Guid(f628c5470b008ca40a8ece468b0d6056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack_Components V1/Resources_Components V1/Textures/Icons3/Icon_Edit2.png using Guid(f628c5470b008ca40a8ece468b0d6056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf811e9475ebc63cf138af3f367b6ee') in 0.098832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/SCI-FI UI Pack_Components V1/Resources_Components V1/Textures/Icons3/Icon_Edit1.png
+  artifactKey: Guid(6b696c37330f2f448bf9f89916411489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack_Components V1/Resources_Components V1/Textures/Icons3/Icon_Edit1.png using Guid(6b696c37330f2f448bf9f89916411489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5387f9f0ebd6419167ce267f2434c838') in 0.015551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/SCI-FI UI Pack_Components V1/Resources_Components V1/Textures/Icons1/Icon_Vedio.png
+  artifactKey: Guid(3a9118b80cd83ee4f998fa0d0df16403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack_Components V1/Resources_Components V1/Textures/Icons1/Icon_Vedio.png using Guid(3a9118b80cd83ee4f998fa0d0df16403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee0295120e30a7b3a4988174d42adea') in 0.015752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Essential Sounds Bundle/Nature & Crafting/Waves Medium 01.wav
+  artifactKey: Guid(5f497e03b041c0c49996dcbb8a4212c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Essential Sounds Bundle/Nature & Crafting/Waves Medium 01.wav using Guid(5f497e03b041c0c49996dcbb8a4212c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd7ce8d2ab623405699fd9570c490ed') in 0.066351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Cainos/Customizable Pixel Character/Editor/PixelCharacterControllerEditor.cs
+  artifactKey: Guid(4be1f42fc84680e459ccccf6e31cd25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Customizable Pixel Character/Editor/PixelCharacterControllerEditor.cs using Guid(4be1f42fc84680e459ccccf6e31cd25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6903706fbc4adb3f0aaab9d70ed00ccb') in 0.014336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082381 seconds.
+  path: Assets/Cainos/Customizable Pixel Character/Editor/PixelCharacterEditor.cs
+  artifactKey: Guid(1b9afed8c2f7aa74d9f5045fc6196301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Customizable Pixel Character/Editor/PixelCharacterEditor.cs using Guid(1b9afed8c2f7aa74d9f5045fc6196301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab312651afa0873827c39426057fefd3') in 0.006318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 202.562876 seconds.
+  path: Assets/Anthill/AI/AntAIAction.cs
+  artifactKey: Guid(e431a22cdb89143e5830e2a3a4886119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anthill/AI/AntAIAction.cs using Guid(e431a22cdb89143e5830e2a3a4886119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dd527eb0a42a5d08d59a49ae39069b') in 0.007461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.791059 seconds.
+  path: Assets/Anthill/Examples/SimpleExample/AIScenario.asset
+  artifactKey: Guid(a3b5335f7bd2748f5a9322888fcbbe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anthill/Examples/SimpleExample/AIScenario.asset using Guid(a3b5335f7bd2748f5a9322888fcbbe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97efcf3b395109053291606ccf2c5d5') in 0.016073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.181881 seconds.
+  path: Assets/Boss/Boss2ai-杨永信/Boss2Scenario.asset
+  artifactKey: Guid(0040efa80922f2246888861362844613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boss/Boss2ai-杨永信/Boss2Scenario.asset using Guid(0040efa80922f2246888861362844613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b54da8804d8ed50116a5e35e8134de') in 0.008431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Anthill/Examples/Tanks/Assets/AI/TankScenario.asset
+  artifactKey: Guid(9975935916df24c7c9a4d3842fde333e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anthill/Examples/Tanks/Assets/AI/TankScenario.asset using Guid(9975935916df24c7c9a4d3842fde333e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1125454621d36145ae6ad5c77363fa5') in 0.009479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Boss/Boss3Ai-黑子/Boss3Scenario.asset
+  artifactKey: Guid(d5f8ac51d61c88149b86bdd9d3a4ca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boss/Boss3Ai-黑子/Boss3Scenario.asset using Guid(d5f8ac51d61c88149b86bdd9d3a4ca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f0386dbde5f44a8fb537c79e530da7') in 0.008331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Anthill/Examples/DefaultUse/Assets/DeliveryBot.asset
+  artifactKey: Guid(9eadfbe60d4dd4b5dae065c6388f3527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anthill/Examples/DefaultUse/Assets/DeliveryBot.asset using Guid(9eadfbe60d4dd4b5dae065c6388f3527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352409c9ca39e5571ee7712a37b57e5a') in 0.007976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Npc/Npc1Ai/Npc1Scenario.asset
+  artifactKey: Guid(2bf35bd3917556445bc9830713cc6c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Npc/Npc1Ai/Npc1Scenario.asset using Guid(2bf35bd3917556445bc9830713cc6c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf1a99c2d4cb17c0decb27d87418630') in 0.009023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/MonsterAi/MonsterScenario.asset
+  artifactKey: Guid(598ff9e9208ddc040a95042c57f878e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterAi/MonsterScenario.asset using Guid(598ff9e9208ddc040a95042c57f878e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b4f33fd113d974cd9a90fa00e77ecd') in 0.008994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Boss/Boss4Ai-重杨子/Boss4Scenario.asset
+  artifactKey: Guid(58d64d0b66c9ba7478168a6bc19ffc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boss/Boss4Ai-重杨子/Boss4Scenario.asset using Guid(58d64d0b66c9ba7478168a6bc19ffc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cf781aca0b1188ccf782bfc733e407') in 0.008946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/BossAi/BossScenario.asset
+  artifactKey: Guid(38a961b2ba3bc3245bacd37842b19afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossAi/BossScenario.asset using Guid(38a961b2ba3bc3245bacd37842b19afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f918c5d73d7640797983e5abb3c80c94') in 0.009379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 151.556270 seconds.
+  path: Assets/Resources/ChineseCharacter
+  artifactKey: Guid(53be7fee23d19864eb5990915b5de346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter using Guid(53be7fee23d19864eb5990915b5de346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fcfddf800b9df63cb0cc50ff13eb09') in 0.007831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048344 seconds.
+  path: Assets/Resources/ChineseCharacter/䒤.prefab
+  artifactKey: Guid(f36518200b0cb3b43b6b4d87b5589c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/䒤.prefab using Guid(f36518200b0cb3b43b6b4d87b5589c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1244b38c61c551e935c12a6d158379ec') in 0.016523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Resources/ChineseCharacter/一.prefab
+  artifactKey: Guid(a80da8603311b6a48ba9512765d541bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/一.prefab using Guid(a80da8603311b6a48ba9512765d541bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2273556ce3349f28f3e431a5964b5399') in 0.007812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Resources/ChineseCharacter/三.prefab
+  artifactKey: Guid(fad89993d567a4e4e8d2588d8ebbbcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/三.prefab using Guid(fad89993d567a4e4e8d2588d8ebbbcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd289456b8b571273743ca1c88808cf') in 0.006587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Resources/ChineseCharacter/上.prefab
+  artifactKey: Guid(616eba053739ab54285595c58562a972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/上.prefab using Guid(616eba053739ab54285595c58562a972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a2d720d615c7f1566a7d9e70e149f3') in 0.006842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Resources/ChineseCharacter/丶.prefab
+  artifactKey: Guid(aced28d219dc7074d891acfd73294920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/丶.prefab using Guid(aced28d219dc7074d891acfd73294920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3155938b01e2d35a6d9e5c79514e32') in 0.007490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Resources/ChineseCharacter/丷.prefab
+  artifactKey: Guid(9bdbe7b5210e17d46b860b4c3ddacf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/丷.prefab using Guid(9bdbe7b5210e17d46b860b4c3ddacf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75ee9cd0a0436e24f6af2fa832e01be') in 0.006785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Resources/ChineseCharacter/丿.prefab
+  artifactKey: Guid(81763835f25249f4086247fcbc02b5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/丿.prefab using Guid(81763835f25249f4086247fcbc02b5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838031de6e9b55c480404bb931bdccac') in 0.007167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Resources/ChineseCharacter/五.prefab
+  artifactKey: Guid(dadab4dfdd5b60544b6eaedf708027e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/五.prefab using Guid(dadab4dfdd5b60544b6eaedf708027e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb8822f5b5913705eaa6394e694759b') in 0.006965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Resources/ChineseCharacter/万.prefab
+  artifactKey: Guid(fa56017665556714e91f239993be491f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/万.prefab using Guid(fa56017665556714e91f239993be491f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fce06bc4956da02e4d8cfb1b1361a0') in 0.007226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Resources/ChineseCharacter/兀.prefab
+  artifactKey: Guid(79b3b89a4af8d6b42abe384080e4ecb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/兀.prefab using Guid(79b3b89a4af8d6b42abe384080e4ecb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae52ed342f5e349699ea7b5aee16681') in 0.006661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Resources/ChineseCharacter/八.prefab
+  artifactKey: Guid(62b1aa17b67df9e40ab1ded641a3e2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/八.prefab using Guid(62b1aa17b67df9e40ab1ded641a3e2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25262ca050abf2a711d3d5ffa617764') in 0.007337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Resources/ChineseCharacter/冖.prefab
+  artifactKey: Guid(be014e06b525ebe4f9a082f3b859b971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/冖.prefab using Guid(be014e06b525ebe4f9a082f3b859b971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbb0ff00ca348d0b22b6418956f96e6') in 0.006938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Resources/ChineseCharacter/刂.prefab
+  artifactKey: Guid(e5129a0619b3bb54b887278e668e4a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/刂.prefab using Guid(e5129a0619b3bb54b887278e668e4a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f55e9370947754f70962526fe871fc2') in 0.007221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Resources/ChineseCharacter/刀.prefab
+  artifactKey: Guid(5ad8dce06700d864a9a6cc10a694a310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/刀.prefab using Guid(5ad8dce06700d864a9a6cc10a694a310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d37f5aaf7b683bbac44b41335d18ec0') in 0.007705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Resources/ChineseCharacter/元.prefab
+  artifactKey: Guid(e84fe2132909af54b82f475c04a34667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/元.prefab using Guid(e84fe2132909af54b82f475c04a34667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3673da92aa184aae6d907d08bfffd500') in 0.007690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Resources/ChineseCharacter/刺.prefab
+  artifactKey: Guid(a57e3a93eac30574e9bbcf9e9a75c566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/刺.prefab using Guid(a57e3a93eac30574e9bbcf9e9a75c566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39189f7bad53ebbd5509801cb8296168') in 0.007707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Resources/ChineseCharacter/人.prefab
+  artifactKey: Guid(8fd011e3876eaa541a2b9721e8d5dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/人.prefab using Guid(8fd011e3876eaa541a2b9721e8d5dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7292c2369af37d4a19e442aaf8bd1201') in 0.007637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Resources/ChineseCharacter/中.prefab
+  artifactKey: Guid(9535c19c45afca9418e8fa58e914abd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/中.prefab using Guid(9535c19c45afca9418e8fa58e914abd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cced90ccb8bd226459dd9025e7d3de') in 0.008437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Resources/ChineseCharacter/丨.prefab
+  artifactKey: Guid(4e446638c646d2449948e8d5da3331d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/丨.prefab using Guid(4e446638c646d2449948e8d5da3331d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d95cf705d6b8e1b72c34e0c57c20c8') in 0.007651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Resources/ChineseCharacter/俞.prefab
+  artifactKey: Guid(1b1d136b5bb89f14bb5fba69a3422315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/俞.prefab using Guid(1b1d136b5bb89f14bb5fba69a3422315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910cf670f48b74266baa94c4bc759590') in 0.007957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Resources/ChineseCharacter/亅.prefab
+  artifactKey: Guid(08839464903e8654083a08d32c7c44ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/亅.prefab using Guid(08839464903e8654083a08d32c7c44ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bacbcd26d567a52cf84b63329edd3b0') in 0.007424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.914072 seconds.
+  path: Assets/Resources/ChineseCharacter/力.prefab
+  artifactKey: Guid(e9d964b62d8001d4fb3df01ea19200de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/力.prefab using Guid(e9d964b62d8001d4fb3df01ea19200de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a061c75a0c65ed517c42c8a27188604d') in 0.010460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Resources/ChineseCharacter/勹.prefab
+  artifactKey: Guid(892f47003bb480a4db738b6057b4dcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/勹.prefab using Guid(892f47003bb480a4db738b6057b4dcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baf017f4cca7de8c9706cdbd193d726') in 0.007457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Resources/ChineseCharacter/匕.prefab
+  artifactKey: Guid(7d3595b94d9642a428c3c4aad7fdce7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/匕.prefab using Guid(7d3595b94d9642a428c3c4aad7fdce7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b5cc35e911cc0f925dc37b696affd8') in 0.007432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Resources/ChineseCharacter/十.prefab
+  artifactKey: Guid(d614945426488d646879684411ab8fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/十.prefab using Guid(d614945426488d646879684411ab8fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009421af5f2df7840710edb5ba2b90a3') in 0.007750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050149 seconds.
+  path: Assets/Resources/ChineseCharacter/卒.prefab
+  artifactKey: Guid(09658d3071b829444aae8f169362701e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/卒.prefab using Guid(09658d3071b829444aae8f169362701e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b207cb57d61127ae547a702f35b60d4b') in 0.010277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Resources/ChineseCharacter/厶.prefab
+  artifactKey: Guid(91a0e6f033cb7484da7562e1dfe85deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/厶.prefab using Guid(91a0e6f033cb7484da7562e1dfe85deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f34958d0ecd4cf2b7a50d2fedd2c62') in 0.007441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Resources/ChineseCharacter/又.prefab
+  artifactKey: Guid(c7f59a80f1e727541bff9740b13ba268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/又.prefab using Guid(c7f59a80f1e727541bff9740b13ba268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe47b1c68f8c715e7b970e59ae6236dc') in 0.007496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Resources/ChineseCharacter/口.prefab
+  artifactKey: Guid(df2be4e81148d2f4888d16e6d18f1f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/口.prefab using Guid(df2be4e81148d2f4888d16e6d18f1f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f34ce5dd59aa59932149abba9c2416') in 0.007549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Resources/ChineseCharacter/土.prefab
+  artifactKey: Guid(d0fee256663664b48ae7e64aa1010c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/土.prefab using Guid(d0fee256663664b48ae7e64aa1010c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901944589812368d560193837aaa3852') in 0.007313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Resources/ChineseCharacter/圶.prefab
+  artifactKey: Guid(eeb62c23fbf736a4e885819f9b89ca7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/圶.prefab using Guid(eeb62c23fbf736a4e885819f9b89ca7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92010c2629bde45a1c70436c25c9f3b2') in 0.007922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Resources/ChineseCharacter/右.prefab
+  artifactKey: Guid(27789a824ff59bf409107a37b29bd4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/右.prefab using Guid(27789a824ff59bf409107a37b29bd4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5bc28bca682b194a05d849fab9896e') in 0.008394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Resources/ChineseCharacter/四.prefab
+  artifactKey: Guid(34f56d860ca633a4ca2b68630e5f6d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/四.prefab using Guid(34f56d860ca633a4ca2b68630e5f6d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74fe4104b97bdc0b7a8b5d975ec2333') in 0.007672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.317131 seconds.
+  path: Assets/Resources/ChineseCharacter/圼.prefab
+  artifactKey: Guid(00a3aeb4a59f97041b367b5a2556b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/圼.prefab using Guid(00a3aeb4a59f97041b367b5a2556b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c250369bd067fedd8ca20d23243a4c') in 0.009313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Resources/ChineseCharacter/夕.prefab
+  artifactKey: Guid(44f13c494fea9f048a25b6a44055a666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/夕.prefab using Guid(44f13c494fea9f048a25b6a44055a666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62043d48517697a5f82ba5c6c5c5794c') in 0.008009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Resources/ChineseCharacter/墓.prefab
+  artifactKey: Guid(b6576e7398333764589a609af75259c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/墓.prefab using Guid(b6576e7398333764589a609af75259c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320b842799b3f444e80cc579e24ed73a') in 0.008502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Resources/ChineseCharacter/大.prefab
+  artifactKey: Guid(8b8430f8d61f8ea4c8024a75a69a82b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/大.prefab using Guid(8b8430f8d61f8ea4c8024a75a69a82b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d698afb74242c5f4cd49121b62f6b74') in 0.008130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.128343 seconds.
+  path: Assets/Resources/ChineseCharacter/女.prefab
+  artifactKey: Guid(1bcc3a0cab4281e49b696037bfbb4888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/女.prefab using Guid(1bcc3a0cab4281e49b696037bfbb4888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea168e05df59edb014ac4673bd78c303') in 0.010693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Resources/ChineseCharacter/妙.prefab
+  artifactKey: Guid(5ebc4c47e70112f4ebdcf36281d1319f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/妙.prefab using Guid(5ebc4c47e70112f4ebdcf36281d1319f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e70c1ecd75a7574df4940c200dcf88') in 0.007245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Resources/ChineseCharacter/宀.prefab
+  artifactKey: Guid(95f091a9d199c194ab13948bf65d60c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/宀.prefab using Guid(95f091a9d199c194ab13948bf65d60c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7b7ffa534f0822062e1b56b9889a96') in 0.008250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Resources/ChineseCharacter/安.prefab
+  artifactKey: Guid(6290785747ea2c1428a762cb7f508da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/安.prefab using Guid(6290785747ea2c1428a762cb7f508da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea122556d1ad5d437f0720781805118') in 0.007862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.759863 seconds.
+  path: Assets/Resources/ChineseCharacter/宋.prefab
+  artifactKey: Guid(9cb83a399a449e4449b71771408b71e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/宋.prefab using Guid(9cb83a399a449e4449b71771408b71e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81545aad5f6968280f9b7ddd94655b0') in 0.009831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Resources/ChineseCharacter/完.prefab
+  artifactKey: Guid(efbda76e37060734e82d9dc23596b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/完.prefab using Guid(efbda76e37060734e82d9dc23596b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae6c5419eb432e4e77c6d23cdcaf669') in 0.007471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Resources/ChineseCharacter/宕.prefab
+  artifactKey: Guid(e1f2030193f311b4ea5fbfc6bdc32dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/宕.prefab using Guid(e1f2030193f311b4ea5fbfc6bdc32dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983708899ce329c85dbc025c65a5c316') in 0.007851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Resources/ChineseCharacter/寸.prefab
+  artifactKey: Guid(8f200d159c7d67a40b742d77122c17da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/寸.prefab using Guid(8f200d159c7d67a40b742d77122c17da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35e878abde286e68a575372c3bc6b87') in 0.007951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.221664 seconds.
+  path: Assets/Resources/ChineseCharacter/少.prefab
+  artifactKey: Guid(71a47b0c928273e42a7978e2b22d01b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/少.prefab using Guid(71a47b0c928273e42a7978e2b22d01b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193c63dae78ee1203869f8d8e2b74cac') in 0.009633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Resources/ChineseCharacter/尧.prefab
+  artifactKey: Guid(656fd348749f8c14c8d45ace88e92a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/尧.prefab using Guid(656fd348749f8c14c8d45ace88e92a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36dc15e9331bf0fa7c98f96775e7ed9') in 0.008007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Resources/ChineseCharacter/屋.prefab
+  artifactKey: Guid(b9e7566a7340d5d44bada0bc49c9ac2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/屋.prefab using Guid(b9e7566a7340d5d44bada0bc49c9ac2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbd29ae91730eb1da8571916203f3cf') in 0.007380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Resources/ChineseCharacter/尸.prefab
+  artifactKey: Guid(00239b0c3ad43744683946098224501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ChineseCharacter/尸.prefab using Guid(00239b0c3ad43744683946098224501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b260a4e2a7658afb034f146563e558') in 0.007814 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

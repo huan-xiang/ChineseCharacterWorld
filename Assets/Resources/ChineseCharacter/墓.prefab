@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4513939283247723394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7369579679467382273}
+  - component: {fileID: 3529055463992016490}
+  m_Layer: 0
+  m_Name: "\u5893"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7369579679467382273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4513939283247723394}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3529055463992016490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4513939283247723394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd955094c42b8e4d95d6945ca9db66e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: "\u5893"
+  split_aim:
+  - uniWord: "\u8349"
+    number: 1
+  - uniWord: "\u65E5"
+    number: 2
+  - uniWord: "\u5927"
+    number: 3
+  - uniWord: "\u571F"
+    number: 4
+  need:
+  - uniWord: "\u8349"
+    number: 1
+  - uniWord: "\u65E5"
+    number: 2
+  - uniWord: "\u5927"
+    number: 3
+  - uniWord: "\u571F"
+    number: 4
+  - uniWord: "\u44A4"
+    number: 12
+  - uniWord: "\u828F"
+    number: 14
+  - uniWord: "\u83AB"
+    number: 123
+  - uniWord: "\u65F2"
+    number: 23
+  - uniWord: "\u573C"
+    number: 24
+  - uniWord: "\u5736"
+    number: 34
+  info: "\u5893[m\xF9](\u5F62\u58F0\u3002\u4ECE\u571F,\u83AB\u58F0\u3002\u672C\u4E49:\u4E0A\u53E4\u65F6\u671F\u51E1\u6398\u5858\u7A74\u846C\u68FA\u6728,\u76D6\u571F\u4E0E\u5806\u5E73,\u4E0D\u690D\u6811\u8005\u79F0\u5893\u3002\u6CDB\u6307\u575F\u5893)"
+  canBe: []
+  invalidTime: -1
+  wantDestory: 0

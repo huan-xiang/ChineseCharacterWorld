@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f22e7053ea04ed0922308786facc8c, type: 3}
+  m_Name: Boss2Scenario
+  m_EditorClassIdentifier: 
+  conditions:
+    list:
+    - id: 0
+      name: IsLive
+    - id: 1
+      name: Thunder
+    - id: 2
+      name: IsLoopFinished
+    - id: 3
+      name: Rest
+  actions:
+  - name: Hoverstate
+    isDefault: 1
+    state: {fileID: 1301949084336131689, guid: f1737ce18d9c38548ab8cf0e1b5f6d45, type: 3}
+    cost: 0
+    position: {x: 230, y: 121}
+    pre:
+    - id: 0
+      value: 1
+    - id: 1
+      value: 0
+    post:
+    - id: 1
+      value: 1
+  - name: ThunderState
+    isDefault: 0
+    state: {fileID: 4289913659066642376, guid: bff16b2834af0294396a074f3fe13035, type: 3}
+    cost: 0
+    position: {x: 460, y: 117}
+    pre:
+    - id: 1
+      value: 1
+    - id: 3
+      value: 0
+    post:
+    - id: 3
+      value: 1
+    - id: 1
+      value: 0
+  - name: RestState
+    isDefault: 0
+    state: {fileID: 2703567845304891058, guid: 4736bc645cca9d14d8cca18eb1d8a87a, type: 3}
+    cost: 0
+    position: {x: 684, y: 123}
+    pre:
+    - id: 3
+      value: 1
+    - id: 1
+      value: 0
+    post:
+    - id: 2
+      value: 1
+    - id: 1
+      value: 1
+    - id: 3
+      value: 0
+  goals:
+  - name: FinishLoop
+    isDefault: 1
+    position: {x: 235, y: 401}
+    conditions:
+    - id: 2
+      value: 1
+  worldStates:
+  - position: {x: 481, y: 400}
+    isAutoUpdate: 0
+    list:
+    - id: 0
+      value: 1
+    - id: 1
+      value: 0
+    - id: 2
+      value: 0
+    - id: 3
+      value: 0

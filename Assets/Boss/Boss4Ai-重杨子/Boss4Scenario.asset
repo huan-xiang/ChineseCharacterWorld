@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f22e7053ea04ed0922308786facc8c, type: 3}
+  m_Name: Boss4Scenario
+  m_EditorClassIdentifier: 
+  conditions:
+    list:
+    - id: 0
+      name: IsLive
+    - id: 1
+      name: DownForward
+    - id: 2
+      name: Slay
+    - id: 3
+      name: JumpBack
+    - id: 4
+      name: FIreBall
+    - id: 5
+      name: Thunder
+    - id: 6
+      name: Rest
+    - id: 7
+      name: IsFinshLoop
+  actions:
+  - name: HoverState
+    isDefault: 1
+    state: {fileID: 6067813833389445007, guid: 0d05860037147eb4dba03face1531e38, type: 3}
+    cost: 0
+    position: {x: 251, y: 66}
+    pre:
+    - id: 0
+      value: 1
+    - id: 1
+      value: 0
+    post:
+    - id: 1
+      value: 1
+  - name: DownForwardState
+    isDefault: 0
+    state: {fileID: 2477627829825132653, guid: 09e534b227517d24a90c2dff644a59d6, type: 3}
+    cost: 0
+    position: {x: 456, y: 71}
+    pre:
+    - id: 1
+      value: 1
+    - id: 2
+      value: 0
+    post:
+    - id: 2
+      value: 1
+    - id: 1
+      value: 0
+  - name: SlayState
+    isDefault: 0
+    state: {fileID: 3486941384482019475, guid: 0044ec86427bf4d4587f1b806915238d, type: 3}
+    cost: 0
+    position: {x: 647, y: 72}
+    pre:
+    - id: 2
+      value: 1
+    - id: 1
+      value: 0
+    post:
+    - id: 2
+      value: 0
+    - id: 3
+      value: 1
+  - name: JumpBackState
+    isDefault: 0
+    state: {fileID: 8678279734117185363, guid: 4118d3c489e3e34458f1c7b33142546b, type: 3}
+    cost: 0
+    position: {x: 847, y: 70}
+    pre:
+    - id: 3
+      value: 1
+    - id: 4
+      value: 0
+    post:
+    - id: 4
+      value: 1
+    - id: 3
+      value: 0
+  - name: FireBallState
+    isDefault: 0
+    state: {fileID: 1893427073757873290, guid: 216c9ce098989004396d6348df4e8a76, type: 3}
+    cost: 0
+    position: {x: 1055, y: 71}
+    pre:
+    - id: 4
+      value: 1
+    - id: 5
+      value: 0
+    post:
+    - id: 4
+      value: 0
+    - id: 5
+      value: 1
+  - name: ThunderState
+    isDefault: 0
+    state: {fileID: 2959028832394000252, guid: 3f4f0084cd9f6414cbd8fededc3e975d, type: 3}
+    cost: 0
+    position: {x: 1254, y: 70}
+    pre:
+    - id: 5
+      value: 1
+    - id: 4
+      value: 0
+    post:
+    - id: 5
+      value: 0
+    - id: 7
+      value: 1
+  goals:
+  - name: FinishLoop
+    isDefault: 1
+    position: {x: 242, y: 318}
+    conditions:
+    - id: 7
+      value: 1
+  worldStates:
+  - position: {x: 239, y: 442}
+    isAutoUpdate: 0
+    list:
+    - id: 0
+      value: 1
+    - id: 1
+      value: 0
+    - id: 2
+      value: 0
+    - id: 3
+      value: 0
+    - id: 4
+      value: 0
+    - id: 5
+      value: 0
+    - id: 6
+      value: 0
+    - id: 7
+      value: 0

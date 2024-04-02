@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f22e7053ea04ed0922308786facc8c, type: 3}
+  m_Name: Npc1Scenario
+  m_EditorClassIdentifier: 
+  conditions:
+    list:
+    - id: 0
+      name: IsLive
+    - id: 1
+      name: Hover
+    - id: 2
+      name: IsLoopFinished
+  actions:
+  - name: HoverState
+    isDefault: 1
+    state: {fileID: 7838362552439379882, guid: 0a275e56eb831644ab54b253784d1eb1, type: 3}
+    cost: 0
+    position: {x: 238, y: 148}
+    pre:
+    - id: 0
+      value: 1
+    - id: 1
+      value: 1
+    post:
+    - id: 2
+      value: 1
+  goals:
+  - name: FinishLoop
+    isDefault: 1
+    position: {x: 233, y: 392}
+    conditions:
+    - id: 2
+      value: 1
+  worldStates:
+  - position: {x: 492, y: 401}
+    isAutoUpdate: 0
+    list:
+    - id: 0
+      value: 1
+    - id: 1
+      value: 1
+    - id: 2
+      value: 0

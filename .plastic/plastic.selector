@@ -1,0 +1,4 @@
+repository "ChineseCharacterWorld@illusory_world@cloud.cn"
+  path "/"
+    smartbranch "/main" 
+     

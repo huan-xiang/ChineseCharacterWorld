@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f22e7053ea04ed0922308786facc8c, type: 3}
+  m_Name: Boss3Scenario
+  m_EditorClassIdentifier: 
+  conditions:
+    list:
+    - id: 0
+      name: IsLive
+    - id: 1
+      name: FlashBack
+    - id: 2
+      name: FlashAttack
+    - id: 3
+      name: IsLoopFinished
+  actions:
+  - name: HoverState
+    isDefault: 1
+    state: {fileID: 6764960466208509268, guid: b0b78e2101f0b6942a9f8132f199f4ef, type: 3}
+    cost: 0
+    position: {x: 226, y: 91}
+    pre:
+    - id: 0
+      value: 1
+    - id: 1
+      value: 0
+    post:
+    - id: 1
+      value: 1
+  - name: FlashBackState
+    isDefault: 0
+    state: {fileID: 3114474755194368420, guid: 52dc53883ba14494487bb0220977895a, type: 3}
+    cost: 0
+    position: {x: 450, y: 89}
+    pre:
+    - id: 1
+      value: 1
+    - id: 2
+      value: 0
+    - id: 0
+      value: 1
+    post:
+    - id: 2
+      value: 1
+    - id: 1
+      value: 0
+  - name: FlashAttackState
+    isDefault: 0
+    state: {fileID: 8520723789427024734, guid: 5b6631470d06f424cb54f0c7ba3378e7, type: 3}
+    cost: 0
+    position: {x: 663, y: 89}
+    pre:
+    - id: 2
+      value: 1
+    - id: 1
+      value: 0
+    post:
+    - id: 3
+      value: 1
+    - id: 1
+      value: 1
+    - id: 2
+      value: 0
+  goals:
+  - name: FinishLoop
+    isDefault: 1
+    position: {x: 218, y: 320}
+    conditions:
+    - id: 3
+      value: 1
+  worldStates:
+  - position: {x: 212, y: 456}
+    isAutoUpdate: 0
+    list:
+    - id: 0
+      value: 1
+    - id: 1
+      value: 0
+    - id: 2
+      value: 0
+    - id: 3
+      value: 0

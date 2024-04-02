@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8387945844560964019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5234878260693941860}
+  - component: {fileID: 2917655104447327190}
+  m_Layer: 0
+  m_Name: "\u5FC3"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5234878260693941860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8387945844560964019}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -497.74658, y: -268.25354, z: 155.20267}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2917655104447327190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8387945844560964019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd955094c42b8e4d95d6945ca9db66e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: "\u5FC3"
+  split_aim: []
+  need: []
+  info: "\u5FC3\uFF0C\u6709\u4E24\u79CD\u8BF4\u6CD5\uFF0C\u7B2C\u4E00\u79CD\uFF0C\u5FC3\u662F\u672C\u4F53\uFF0C\u5C31\u662F\u8BF4\u5FC3\u662F\u5FC3\u810F\uFF0C\u8FD9\u4E2A\u5FC3\u810F\u53C2\u4E0E\u6574\u4E2A\u8EAB\u4F53\u7684\u8FD0\u884C\uFF1B\u7B2C\u4E8C\u8BF4\u7684\u662F\u5FC3\u7684\u610F\u8BC6\u529F\u80FD\uFF0C\u5728\u4E2D\u534E\u53E4\u4EE3\uFF0C\u628A\u5FC3\u610F\u8BC6\u529F\u80FD\u79F0\u4E4B\u4E3A\u7985\uFF0C\u4E5F\u53EF\u4EE5\u8FD9\u6837\u8BF4\uFF0C\u4E2D\u534E\u6587\u5316\u5C31\u662F\u7985\u7684\u6587\u5316\uFF0C\u5FC3\u7684\u6587\u5316\u3002"
+  canBe:
+  - "\u60F3"
+  - "\u5D3D"
+  - "\u6108"
+  invalidTime: -1
+  wantDestory: 0

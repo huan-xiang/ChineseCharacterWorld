@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3829463105135484767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4385542743403520365}
+  - component: {fileID: 2706368935631945148}
+  m_Layer: 0
+  m_Name: "\u738B"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4385542743403520365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3829463105135484767}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -497.74658, y: -268.25354, z: 155.20267}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2706368935631945148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3829463105135484767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd955094c42b8e4d95d6945ca9db66e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: "\u738B"
+  split_aim:
+  - uniWord: "\u4E00"
+    number: 1
+  - uniWord: "\u4E00"
+    number: 1
+  - uniWord: "\u4E00"
+    number: 1
+  - uniWord: "\u4E28"
+    number: 2
+  need:
+  - uniWord: "\u4E00"
+    number: 1
+  - uniWord: "\u4E00"
+    number: 1
+  - uniWord: "\u4E00"
+    number: 1
+  - uniWord: "\u4E28"
+    number: 2
+  info: "\u738B\uFF0C\u6C49\u8BED\u6C49\u5B57\u3002\u662F\u6307\u56E0\u4E3A\u81EA\u8EAB\u4FEE\u517B\u548C\u667A\u6167\u4EE5\u53CA\u80FD\u529B\u975E\u5E38\u4E4B\u9AD8\u8FDB\u800C\u88AB\u5929\u4E0B\u6240\u6709\u4EBA\u63A8\u4E3E\u4E3A\u6700\u9AD8\u7BA1\u7406\u8005\u7684\u4EBA\uFF0C\u79F0\u4E4B\u4E3A\u738B\u3002"
+  canBe:
+  - "\u65FA"
+  - "\u78A7"
+  invalidTime: -1
+  wantDestory: 0

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4513939283247723394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7369579679467382273}
+  - component: {fileID: 3529055463992016490}
+  m_Layer: 0
+  m_Name: "\u5C4B"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7369579679467382273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4513939283247723394}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3529055463992016490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4513939283247723394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd955094c42b8e4d95d6945ca9db66e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: "\u5C4B"
+  split_aim:
+  - uniWord: "\u5C38"
+    number: 1
+  - uniWord: "\u4E00"
+    number: 2
+  - uniWord: "\u53B6"
+    number: 3
+  - uniWord: "\u571F"
+    number: 4
+  need:
+  - uniWord: "\u5C38"
+    number: 1
+  - uniWord: "\u4E00"
+    number: 2
+  - uniWord: "\u53B6"
+    number: 3
+  - uniWord: "\u571F"
+    number: 4
+  - uniWord: "\u81F3"
+    number: 234
+  info: "\u5C4B [w\u016B]\u5C4B\u7684\u672C\u4E49\u662F\u5E44,\u540E\u6765\u201C\u5C4B\u201D\u6307\u623F\u5C4B,\u53E6\u9020\u201C\u5E44\u201D\u5B57\u3002\u4F1A\u610F\u3002\u4ECE\u5C38,\u4ECE\u81F3\u3002\u5C38,\u4E0E\u623F\u5C4B\u6709\u5173,\u201C\u81F3\u201D\u8868\u793A\u6765\u5230\u3002\u4EBA\u6765\u5230\u8FD9\u91CC\u5C45\u4F4F\u4E4B\u610F\u3002"
+  canBe: []
+  invalidTime: -1
+  wantDestory: 0

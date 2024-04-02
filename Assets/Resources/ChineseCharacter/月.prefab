@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2552363008248138551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5081677105858591158}
+  - component: {fileID: 1764456032626624674}
+  m_Layer: 0
+  m_Name: "\u6708"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5081677105858591158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2552363008248138551}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -497.74658, y: -268.25354, z: 155.20267}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1764456032626624674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2552363008248138551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd955094c42b8e4d95d6945ca9db66e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: "\u6708"
+  split_aim:
+  - uniWord: "\u4E3F"
+    number: 1
+  - uniWord: "\u4E00"
+    number: 2
+  - uniWord: "\u4E00"
+    number: 2
+  - uniWord: "\u4E00"
+    number: 2
+  - uniWord: "\u4E85"
+    number: 3
+  need:
+  - uniWord: "\u4E3F"
+    number: 1
+  - uniWord: "\u4E00"
+    number: 2
+  - uniWord: "\u4E00"
+    number: 2
+  - uniWord: "\u4E00"
+    number: 2
+  - uniWord: "\u4E85"
+    number: 3
+  info: "\u62A5\u9519 \u6708\u662F\u8C61\u5F62\u5B57\uFF0C\u53E4\u6587\u6708\u5B57\u50CF\u534A\u6708\u5F62\u3002\u6708\uFF0C\u4E00\u822C\u6307\u5730\u7403\u7684\u5929\u7136\u536B\u661F\u6708\u7403\uFF0C\u4EA6\u79F0\u6708\u4EAE\u6216\u592A\u9634\u3002\u540C\u65F6\u4E5F\u5E38\u6307\u4EE5\u6708\u7403\u7ED5\u5730\u7403\u516C\u8F6C\u5468\u671F\u4E3A\u57FA\u51C6\u7684\u65F6\u95F4\u5355\u4F4D\uFF0C\u201C\u6708\u4EFD\u201D\u3002"
+  canBe:
+  - "\u6108"
+  - "\u4FDE"
+  invalidTime: -1
+  wantDestory: 0
