@@ -3,20 +3,100 @@
   "WorkspaceRootPath": "E:\\Unity\\ChineseCharacterWorld\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|e:\\unity\\chinesecharacterworld\\assets\\scripts\\chinesecharacter\\autocreatechinesecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chinesecharacter\\autocreatechinesecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\cainos\\customizable pixel character\\script\\pixelcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\cainos\\customizable pixel character\\script\\pixelcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2ACCECA-7BAA-0F4A-C378-3EE9C3A40581}|Assembly-CSharp-Editor.csproj|e:\\unity\\chinesecharacterworld\\assets\\cainos\\customizable pixel character\\editor\\pixelcharactereditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2ACCECA-7BAA-0F4A-C378-3EE9C3A40581}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\cainos\\customizable pixel character\\editor\\pixelcharactereditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\scripts\\management\\gamemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\management\\gamemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|e:\\unity\\chinesecharacterworld\\assets\\cainos\\customizable pixel character\\script\\pixelcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\cainos\\customizable pixel character\\script\\pixelcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|e:\\unity\\chinesecharacterworld\\assets\\npc\\npc1ai\\scripts\\npc_talk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\npc\\npc1ai\\scripts\\npc_talk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\monologue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\monologue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\scripts\\audio\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audio\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\scripts\\management\\monstermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\management\\monstermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\scripts\\audio\\bgmchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audio\\bgmchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\bossmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\bossmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\bossai\\scripts\\bossobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\bossai\\scripts\\bossobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\scripts\\uisystem\\tips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uisystem\\tips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\deadline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\deadline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\scripts\\management\\choiceroulettemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\management\\choiceroulettemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\scripts\\chinesecharacter\\autocreatechinesecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chinesecharacter\\autocreatechinesecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\scripts\\management\\chinesecharactermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\management\\chinesecharactermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\scripts\\system\\autodestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\system\\autodestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\scripts\\sceneobject\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sceneobject\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\npc\\npc1ai\\scripts\\npc1hoverstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\npc\\npc1ai\\scripts\\npc1hoverstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\scripts\\player\\characterstates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\characterstates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\scripts\\management\\skillmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\management\\skillmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\anthill\\ai\\antaiagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\anthill\\ai\\antaiagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\scripts\\chinesecharacter\\passiveaddobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chinesecharacter\\passiveaddobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\scripts\\sceneobject\\trap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sceneobject\\trap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2ACCECA-7BAA-0F4A-C378-3EE9C3A40581}|Assembly-CSharp-Editor.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\cainos\\customizable pixel character\\editor\\pixelcharactereditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2ACCECA-7BAA-0F4A-C378-3EE9C3A40581}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\cainos\\customizable pixel character\\editor\\pixelcharactereditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|E:\\Unity\\ChineseCharacterWorld\\assets\\cainos\\customizable pixel character\\script\\pixelcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD925662-1A7F-9780-2514-CEA71EA8F77E}|Assembly-CSharp.csproj|solutionrelative:assets\\cainos\\customizable pixel character\\script\\pixelcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +106,258 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 12,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NPC_Talk.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Npc\\Npc1Ai\\Scripts\\NPC_Talk.cs",
+              "RelativeDocumentMoniker": "Assets\\Npc\\Npc1Ai\\Scripts\\NPC_Talk.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Npc\\Npc1Ai\\Scripts\\NPC_Talk.cs",
+              "RelativeToolTip": "Assets\\Npc\\Npc1Ai\\Scripts\\NPC_Talk.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAABAwE0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T12:00:51.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MonsterManagement.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\Management\\MonsterManagement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Management\\MonsterManagement.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\Management\\MonsterManagement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Management\\MonsterManagement.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADwvyMAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:58:50.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "bgmChange.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\Audio\\bgmChange.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Audio\\bgmChange.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\Audio\\bgmChange.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Audio\\bgmChange.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvw0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:58:23.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Monologue.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Monologue.cs",
+              "RelativeDocumentMoniker": "Assets\\Monologue.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Monologue.cs",
+              "RelativeToolTip": "Assets\\Monologue.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAMwA8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:55:39.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BossManager.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\BossManager.cs",
+              "RelativeDocumentMoniker": "Assets\\BossManager.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\BossManager.cs",
+              "RelativeToolTip": "Assets\\BossManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:55:08.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BossObject.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\BossAi\\Scripts\\BossObject.cs",
+              "RelativeDocumentMoniker": "Assets\\BossAi\\Scripts\\BossObject.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\BossAi\\Scripts\\BossObject.cs",
+              "RelativeToolTip": "Assets\\BossAi\\Scripts\\BossObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:54:45.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tips.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\UISystem\\Tips.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UISystem\\Tips.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\UISystem\\Tips.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UISystem\\Tips.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:44:55.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DeadLine.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\DeadLine.cs",
+              "RelativeDocumentMoniker": "Assets\\DeadLine.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\DeadLine.cs",
+              "RelativeToolTip": "Assets\\DeadLine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:05:44.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AutoDestroy.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\System\\AutoDestroy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\System\\AutoDestroy.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\System\\AutoDestroy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\System\\AutoDestroy.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvxQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T09:25:15.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChoiceRouletteManagement.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\Management\\ChoiceRouletteManagement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Management\\ChoiceRouletteManagement.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\Management\\ChoiceRouletteManagement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Management\\ChoiceRouletteManagement.cs",
+              "ViewState": "AQIAAD0BAAAAAAAAAAAjwFgBAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T08:40:04.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChineseCharacterManagement.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\Management\\ChineseCharacterManagement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Management\\ChineseCharacterManagement.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\Management\\ChineseCharacterManagement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Management\\ChineseCharacterManagement.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T08:39:16.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PixelCharacterController.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Cainos\\Customizable Pixel Character\\Script\\PixelCharacterController.cs",
+              "RelativeDocumentMoniker": "Assets\\Cainos\\Customizable Pixel Character\\Script\\PixelCharacterController.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Cainos\\Customizable Pixel Character\\Script\\PixelCharacterController.cs",
+              "RelativeToolTip": "Assets\\Cainos\\Customizable Pixel Character\\Script\\PixelCharacterController.cs",
+              "ViewState": "AQIAALEBAAAAAAAAAAAhwMsBAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T08:25:10.258Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GameManagement.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\Management\\GameManagement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Management\\GameManagement.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\Management\\GameManagement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Management\\GameManagement.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAswCYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T08:14:57.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Portal.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\SceneObject\\Portal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneObject\\Portal.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\SceneObject\\Portal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneObject\\Portal.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAADwv0YAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T08:09:48.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Npc1HoverState.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Npc\\Npc1Ai\\Scripts\\Npc1HoverState.cs",
+              "RelativeDocumentMoniker": "Assets\\Npc\\Npc1Ai\\Scripts\\Npc1HoverState.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Npc\\Npc1Ai\\Scripts\\Npc1HoverState.cs",
+              "RelativeToolTip": "Assets\\Npc\\Npc1Ai\\Scripts\\Npc1HoverState.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAADgv2YAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T12:59:18.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AntAIAgent.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Anthill\\AI\\AntAIAgent.cs",
+              "RelativeDocumentMoniker": "Assets\\Anthill\\AI\\AntAIAgent.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Anthill\\AI\\AntAIAgent.cs",
+              "RelativeToolTip": "Assets\\Anthill\\AI\\AntAIAgent.cs",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAlwJwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T12:02:50.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SkillManagement.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\Management\\SkillManagement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Management\\SkillManagement.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\Management\\SkillManagement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Management\\SkillManagement.cs",
+              "ViewState": "AQIAAJ4AAAAAAAAAAADgv5cAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T11:59:27.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CharacterStates.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\Player\\CharacterStates.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\CharacterStates.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\Player\\CharacterStates.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\CharacterStates.cs",
+              "ViewState": "AQIAAMcAAAAAAAAAAADgv9IAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T11:57:18.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PassiveAddObj.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\ChineseCharacter\\PassiveAddObj.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ChineseCharacter\\PassiveAddObj.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\ChineseCharacter\\PassiveAddObj.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ChineseCharacter\\PassiveAddObj.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAewCEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T11:55:58.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Trap.cs",
+              "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\SceneObject\\Trap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneObject\\Trap.cs",
+              "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\SceneObject\\Trap.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneObject\\Trap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T11:50:46.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "PixelCharacterEditor.cs",
               "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Cainos\\Customizable Pixel Character\\Editor\\PixelCharacterEditor.cs",
               "RelativeDocumentMoniker": "Assets\\Cainos\\Customizable Pixel Character\\Editor\\PixelCharacterEditor.cs",
@@ -38,12 +365,11 @@
               "RelativeToolTip": "Assets\\Cainos\\Customizable Pixel Character\\Editor\\PixelCharacterEditor.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T01:47:11.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-21T01:47:11.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 23,
               "Title": "PixelCharacter.cs",
               "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Cainos\\Customizable Pixel Character\\Script\\PixelCharacter.cs",
               "RelativeDocumentMoniker": "Assets\\Cainos\\Customizable Pixel Character\\Script\\PixelCharacter.cs",
@@ -51,29 +377,23 @@
               "RelativeToolTip": "Assets\\Cainos\\Customizable Pixel Character\\Script\\PixelCharacter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T01:46:28.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-03-21T01:46:28.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "AutoCreateChineseCharacter.cs",
               "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\ChineseCharacter\\AutoCreateChineseCharacter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ChineseCharacter\\AutoCreateChineseCharacter.cs",
               "ToolTip": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\ChineseCharacter\\AutoCreateChineseCharacter.cs",
               "RelativeToolTip": "Assets\\Scripts\\ChineseCharacter\\AutoCreateChineseCharacter.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAADwvwwAAAAuAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAIEAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T02:13:14.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T02:13:14.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "E:\\Unity\\ChineseCharacterWorld\\Assets\\Scripts\\Audio\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Audio\\AudioManager.cs",

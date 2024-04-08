@@ -11,15 +11,27 @@ public class ChineseCharacterManagement : MonoBehaviour
     public List<ChineseCharacter> createChineseCharacterList;
     private void Update()
     {
-        foreach(ChineseCharacter chineseCharacter in createChineseCharacterList)
+        //if (!Input.GetKey(KeyCode.E))
+        //{
+        //    foreach (ChineseCharacter chineseCharacter in createChineseCharacterList)
+        //    {
+        //        if (!gameManagement.choiceRouletteManagement.chineseCharacters.Contains(chineseCharacter)
+        //            && !gameManagement.characterStates[0].chineseCharacters.Contains(chineseCharacter))
+        //        {
+        //            createChineseCharacterList.Remove(chineseCharacter);
+        //            return;
+        //        }
+        //    }
+        //}
+        
+    }
+    public bool CheckContains(string chineseCharacterName)
+    {
+        foreach (ChineseCharacter chineseCharacter in createChineseCharacterList)
         {
-            if(!gameManagement.choiceRouletteManagement.chineseCharacters.Contains(chineseCharacter)
-                && !gameManagement.characterStates[0].chineseCharacters.Contains(chineseCharacter))
-            {
-                createChineseCharacterList.Remove(chineseCharacter);
-                return;
-            }
+            if(chineseCharacter.characterName == chineseCharacterName) return true;
         }
+        return false;
     }
     /// <summary>
     /// ´´½¨ÐÂºº×Ö

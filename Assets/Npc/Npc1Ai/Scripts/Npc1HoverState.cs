@@ -100,7 +100,7 @@ public class Npc1HoverState : AntAIState
             Vector3 tempPos = nowPos.position;
             if (tempPos.x - lastPos.x == 0)
             {
-                Debug.Log("当能阻");
+                //Debug.Log("当能阻");
                 isCrash = true;
                 Finish();
             }

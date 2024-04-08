@@ -6,6 +6,7 @@ public class AutoDestroy : MonoBehaviour
 {
     public int time = 0;
     public int destroyTime;
+    public bool isNotDestroy;
     void Update()
     {
         /*²»Ïú»Ù*/
@@ -15,7 +16,11 @@ public class AutoDestroy : MonoBehaviour
         }
         if (time >= destroyTime)
         {
-            Destroy(gameObject);
+            if(isNotDestroy)
+            {
+                gameObject.SetActive(false);
+            }
+            else Destroy(gameObject);
         }
         else
             time++;

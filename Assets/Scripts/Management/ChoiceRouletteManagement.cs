@@ -74,7 +74,11 @@ public class ChoiceRouletteManagement : MonoBehaviour
     /// 用来替代鼠标的物体
     /// </summary>
     public GameObject MouseObj;
-    private void Start()
+    /// <summary>
+    /// 角色提示
+    /// </summary>
+    public GameObject playerTips;
+    private void Awake()
     {
         /*测试用，把所有汉字拿到*/
         //GameObject[] allCharacterObj = Resources.LoadAll<GameObject>("ChineseCharacter/");
@@ -82,16 +86,18 @@ public class ChoiceRouletteManagement : MonoBehaviour
         //{
         //    chineseCharacters.Add(allCharacterObj[i].GetComponent<ChineseCharacter>());
         //}
-        GetNewCharacterList();
-            /*从0开始*/
+        //GetNewCharacterList();
+        /*从0开始*/
         page = 0;
         choiceNumber = -1;
         isChoosing = false;
     }
-    private void Update()
+    private int saveCharacterStatesCount;
+    private void FixedUpdate()
     {
-        if (!isChoosing)
+        if (saveCharacterStatesCount != gameManagement.characterStates[0].chineseCharacters.Count)
         {
+            saveCharacterStatesCount = gameManagement.characterStates[0].chineseCharacters.Count;
             GetNewCharacterList();
         }
         CheckMouse();
@@ -222,6 +228,9 @@ public class ChoiceRouletteManagement : MonoBehaviour
                 if (provideInt == 0)
                 {
                     Debug.Log("不能用来拼写这个字");
+                    playerTips.gameObject.SetActive(true);
+                    playerTips.GetComponentInChildren<TextMesh>().text = "不能用来拼写这个字";
+                    playerTips.GetComponentInChildren<AutoDestroy>().time = 0;
                     return;
                 }
                 /*持有表bool副本*/
@@ -247,6 +256,9 @@ public class ChoiceRouletteManagement : MonoBehaviour
                     if (!needIntList.Contains(provideInt % 10) && !needIntList.Contains(provideInt))
                     {
                         Debug.Log("不能放入这个字");
+                        playerTips.gameObject.SetActive(true);
+                        playerTips.GetComponentInChildren<TextMesh>().text = "已经含有相关字";
+                        playerTips.GetComponentInChildren<AutoDestroy>().time = 0;
                         return;
                     }
                     else
@@ -291,7 +303,8 @@ public class ChoiceRouletteManagement : MonoBehaviour
     {
         /*重置轮盘*/
         chineseCharacters.Clear();
-        chineseCharacters.AddRange(gameManagement.characterStates[0].chineseCharacters);
+        GetNewCharacterList();
+        //chineseCharacters.AddRange(gameManagement.characterStates[0].chineseCharacters);
         /*重置持有表*/
         CombinationUISystem combinationUI = aimCharacterUI.GetComponent<CombinationUISystem>();
         for(int i = 0; i < combinationUI.hasList.Count; i++)
@@ -304,10 +317,13 @@ public class ChoiceRouletteManagement : MonoBehaviour
     /// </summary>
     public void Confirm()
     {
-        /*如果收集齐*/
+        /*如果没有收集齐*/
         if (aimCharacterUI.GetComponent<CombinationUISystem>().hasList.Contains(false))
         {
             Debug.Log("请集齐所有部件再重试");
+            playerTips.gameObject.SetActive(true);
+            playerTips.GetComponentInChildren<TextMesh>().text = "请集齐所有部件再重试";
+            playerTips.GetComponentInChildren<AutoDestroy>().time = 0;
             return;
         }
         /*消耗汉字*/
@@ -316,7 +332,18 @@ public class ChoiceRouletteManagement : MonoBehaviour
         /*组合汉字*/
         if (!gameManagement.characterStates[0].Contains(aimCharacterUI.GetComponent<CombinationUISystem>().aimCharacter.characterName))
         {
+            Debug.Log("成功");
+            playerTips.gameObject.SetActive(true);
+            playerTips.GetComponentInChildren<TextMesh>().text = "成功拼出" + aimCharacterUI.GetComponent<CombinationUISystem>().aimCharacter.characterName;
+            playerTips.GetComponentInChildren<AutoDestroy>().time = 0;
             gameManagement.characterStates[0].chineseCharacters.Add(aimCharacterUI.GetComponent<CombinationUISystem>().aimCharacter);
+        }
+        else
+        {
+            Debug.Log("已经含有");
+            playerTips.gameObject.SetActive(true);
+            playerTips.GetComponentInChildren<TextMesh>().text = "已经持有" + aimCharacterUI.GetComponent<CombinationUISystem>().aimCharacter.characterName;
+            playerTips.GetComponentInChildren<AutoDestroy>().time = 0;
         }
         choiceCharacter = null;
         isChoosing = false;
@@ -347,7 +374,8 @@ public class ChoiceRouletteManagement : MonoBehaviour
     public void GetNewCharacterList()
     {
         /*重置汉字列表*/
-        chineseCharacters.Clear();
+        //chineseCharacters.Clear();
+        gameManagement.chineseCharacterManagement.createChineseCharacterList.Clear();
         CharacterStates active = gameManagement.characterStates[0];
         /*再次遍历主动字*/
         for (int i = 0; i < active.chineseCharacters.Count; i++)
@@ -358,13 +386,15 @@ public class ChoiceRouletteManagement : MonoBehaviour
             foreach (string newName in chineseCharacter.canBe)
             {
                 /*得到可以拼成的字*/
-                if (!Contains(newName))
+                if (!Contains(newName) && !gameManagement.chineseCharacterManagement.CheckContains(newName))
                 {
                     ChineseCharacter newCharacter = gameManagement.chineseCharacterManagement.CreateChineseCharacter(newName);
                     chineseCharacters.Add(newCharacter);
+                    Debug.Log(chineseCharacters.Count);
                 }
             }
         }
+        Debug.Log(chineseCharacters.Count);
     }
     /// <summary>
     /// 是否存在汉字

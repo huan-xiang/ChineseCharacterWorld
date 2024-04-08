@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
@@ -126,3 +127,4 @@ public class AutoCreateChineseCharacter : MonoBehaviour
         Debug.Log(finnish?"全部修改完毕":"已修改，请重新运行来检查");
     }
 }
+#endif 

@@ -84,7 +84,7 @@ public class CharacterStates : MonoBehaviour
                 || characterStateType == CharacterStatesType.敌方被动栏) PassiveUpdateString();
             needUpdate = false;
         }
-        //AutoInvalidChineseCharacter();
+        AutoInvalidChineseCharacter();
     }
     /// <summary>
     /// 更新显示的文字

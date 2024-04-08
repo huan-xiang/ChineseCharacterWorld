@@ -130,7 +130,7 @@ namespace Cainos.Character
             posTop = collider2d.offset + new Vector2( 0.0f, collider2d.size.y * 0.5f );
         }
 
-        private void FixedUpdate()
+        private void Update()
         {
             if (GameManagement._stop == true)
             {
@@ -218,25 +218,7 @@ namespace Cainos.Character
                 if ( colliders[i].gameObject != gameObject ) isGrounded = true;
             }
         }
-        private void Update()
-        {
-            if(GameManagement._stop==true)
-            {
-                return;
-            }
-            if(gameObject.tag == "Player")
-            {
-                if (Input.GetKey(leftKey)) inputH = -1.0f;
-                else
-                if (Input.GetKey(rightKey)) inputH = 1.0f;
-                else inputH = 0.0f;
-                inputJumpDown = Input.GetKeyDown(jumpKey);
-                inputCrounch = Input.GetKey(crouchKey);
-                inputJump = Input.GetKey(jumpKey);
-                Move(inputH, inputCrounch, inputJumpDown, inputJump);
-            }
 
-        }
         /// <summary>
         /// 角色攻击
         /// </summary>
